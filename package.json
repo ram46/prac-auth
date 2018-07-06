@@ -1,0 +1,38 @@
+{
+  "name": "prac-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "test": "mocha spec/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram46/prac-auth.git"
+  },
+  "author": "Kausar Khizra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ram46/prac-auth/issues"
+  },
+  "homepage": "https://github.com/ram46/prac-auth#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "express": "^4.16.3",
+    "express-react-views": "^0.10.5",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  }
+}
